@@ -2,7 +2,7 @@
 ubuntu24.04/mint 提示libgconf-2-4依赖问题, 替换为libwebkit2gtk-4.1-0重新打包
 
 
-# 下载：https://github.com/SindreYang/SunloginClient/releases/download/0.1/SunloginClient_15.2.0.63064_amd64.deb
+# 下载：[链接](https://github.com/SindreYang/SunloginClient/releases/download/0.1/SunloginClient_15.2.0.63064_amd64.deb)
 
 # 替换方式：
 
@@ -21,7 +21,7 @@ vim sun/DEBIAN/control
 
 
 4.修改文件内容
-将libwebkitgtk 3.0-0修改为libwebkit2gtk-4.0-37
+将libwebkitgtk 3.0-0修改为libwebkit2gtk-4.1-0
 
 5.重新进行打包
 dpkg-deb -b sun
